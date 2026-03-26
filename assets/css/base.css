@@ -63,7 +63,9 @@
 .pxy-2 {
     padding: 20px 40px;
 }
-
+.pxy-3{
+    padding: 5% 17%;
+}
 .d-flex {
     display: flex;
 }
@@ -82,7 +84,6 @@ ul {
 }
 a {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.7);
     list-style: none;
     font-family: sans-serif;
 }
@@ -112,13 +113,20 @@ h1{
     font-size: 15px;
 }
 .fs-3 {
-    font-size: 20px;
+    font-size: 18px;
 }
 .fs-4 {
-    font-size: 25px;
+    font-size: 20px;
 }
 .color-white {
     color: white;
+}
+.color-black {
+    color: black;
+}
+.color-gray {
+   
+   color: rgba(255, 255, 255, 0.7);;
 }
 .justify-content-center {
     justify-content: center;
@@ -167,6 +175,15 @@ h1{
     border-left: none;
     border-right: none;
 }
+.divider-white {
+    width: 60px;
+    height: 4px;
+    background-color: #fff;
+    border-top: black solid 1px ;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
 .btn-primary{
     background-color: #f4623a;
     border: none;
@@ -176,4 +193,18 @@ h1{
     cursor: pointer;
     border-radius: 60px;
     text-transform: uppercase;
+}
+.btn-secondary{
+    background-color: #fff;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 60px;
+    text-transform: uppercase;
+}
+.getStarted {
+    background-color: #f4623a;
+   
 }
